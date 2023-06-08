@@ -1,50 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-import {
-  Tabs,
-  TabsHeader,
-  TabsBody,
-  Tab,
-  TabPanel,
-} from "@material-tailwind/react";
 
 export default function Home() {
-  const data = [
-    {
-      label: "Random",
-      value: "html",
-      desc: `It really matters and then like it really doesn't matter.
-      What matters is the people who are sparked by it. And the people 
-      who are like offended by it, it doesn't matter.`,
-    },
-    {
-      label: "Saved",
-      value: "react",
-      desc: `Because it's about motivating the doers. Because I'm here
-      to follow my dreams and inspire other people to follow their dreams, too.`,
-    },
-  ];
-
   return (
-    <main className="bg-gray-50 h-screen pt-3">
-      <div className="px-5 justify-between flex items-center">
-        <button>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M12 4.5v15m7.5-7.5h-15"
-            />
-          </svg>
-        </button>
-        <span className="text-lg text-gray-800 font-semibold">Idioms</span>
-        <button>
+    <main className="">
+      <div className="mt-7 px-6 flex items-center">
+        <h1 className="text-3xl font-bold">Home</h1>
+        <div className="flex items-center space-x-5 ml-auto">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -59,26 +20,64 @@ export default function Home() {
               d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
             />
           </svg>
+        </div>
+      </div>
+      <nav className="fixed bottom-0 inset-x-0 w-full h-16 bg-zinc-50 border-t grid grid-cols-3">
+        <button className="flex items-center space-x-2 w-full justify-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+            />
+          </svg>
+
+          <span className="text-sm">Home</span>
         </button>
-      </div>
-      <div className="px-5 mt-4">
-        <Tabs value="html">
-          <TabsHeader>
-            {data.map(({ label, value }) => (
-              <Tab key={value} value={value}>
-                {label}
-              </Tab>
-            ))}
-          </TabsHeader>
-          <TabsBody>
-            {data.map(({ value, desc }) => (
-              <TabPanel key={value} value={value}>
-                {desc}
-              </TabPanel>
-            ))}
-          </TabsBody>
-        </Tabs>
-      </div>
+        <button className="flex items-center space-x-2 w-full justify-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+            />
+          </svg>
+
+          <span className="text-sm">Random</span>
+        </button>
+        <button className="flex items-center space-x-2 w-full justify-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z"
+            />
+          </svg>
+
+          <span className="text-sm">Saved</span>
+        </button>
+      </nav>
     </main>
   );
 }

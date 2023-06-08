@@ -5,9 +5,7 @@ import { ThemeProvider } from "@material-tailwind/react";
 export default function App({ Component, pageProps }) {
   return (
     <div>
-      <ThemeProvider>
-        <Component {...pageProps} />
-      </ThemeProvider>
+      <Component {...pageProps} />
     </div>
   );
 }

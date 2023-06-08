@@ -7,7 +7,7 @@ function Id() {
     <main>
       <div className="px-6 mt-7">
         <Navbar
-          subheading={"Lorem ipsum dolor sit amet."}
+          subheading={"In for a penny, in for a pound"}
           backEnabled={true}
           searchEnabled={false}
         />
@@ -32,33 +32,41 @@ function Id() {
           </button>
         </div>
 
-        <button className="text-blue-600 mt-7 text-sm">
-          Contribute new meaning
-        </button>
+        <div className="mt-7">
+          {tab == "meaning" ? (
+            <div>
+              <button className="text-blue-600 text-sm">
+                Contribute new meaning
+              </button>
 
-        <div className="mt-8 text-sm leading-6 text-zinc-800 border-b pb-2">
-          <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi,
-            consectetur voluptatibus odio cupiditate excepturi et nemo eos ex,
-            corrupti inventore, consequatur soluta minus culpa nobis
-            reprehenderit expedita voluptas nostrum.
-          </p>
-          <div className="flex items-center justify-between mt-3 space-x-4 text-zinc-500">
-            <span>2 days ago</span>
-            <button className="text-blue-600">Flag inappropriate</button>
-          </div>
-        </div>
-        <div className="mt-8 text-sm leading-6 text-zinc-800 border-b pb-2">
-          <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi,
-            consectetur voluptatibus odio cupiditate excepturi et nemo eos ex,
-            corrupti inventore, consequatur soluta minus culpa nobis
-            reprehenderit expedita voluptas nostrum.
-          </p>
-          <div className="flex items-center justify-between mt-3 space-x-4 text-zinc-500">
-            <span>2 days ago</span>
-            <button className="text-blue-600">Flag inappropriate</button>
-          </div>
+              <div className="mt-8 text-sm leading-6 text-zinc-800 border-b pb-2">
+                <p className="">
+                  That someone is intentionally investing his time or money for
+                  a particular project or task.
+                </p>
+                <div className="flex items-center justify-between mt-3 space-x-4 text-zinc-500">
+                  <span>2 days ago</span>
+                  <button className="text-blue-600">Flag inappropriate</button>
+                </div>
+              </div>
+            </div>
+          ) : (
+            <div>
+              <button className="text-blue-600 text-sm">
+                Contribute new example
+              </button>
+              <div className="mt-8 text-sm leading-6 text-zinc-800 border-b pb-2">
+                <p className="">
+                  When Athlead was booming, Jim was in for a penny and in for a
+                  pound, that’s how much dedicated he was.
+                </p>
+                <div className="flex items-center justify-between mt-3 space-x-4 text-zinc-500">
+                  <span>2 days ago</span>
+                  <button className="text-blue-600">Flag inappropriate</button>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </main>

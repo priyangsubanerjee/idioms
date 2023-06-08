@@ -36,7 +36,7 @@ function Id() {
           Contribute new meaning
         </button>
 
-        <div className="mt-8 text-sm leading-7 text-zinc-800 border-b pb-2">
+        <div className="mt-8 text-sm leading-6 text-zinc-800 border-b pb-2">
           <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi,
             consectetur voluptatibus odio cupiditate excepturi et nemo eos ex,
@@ -48,7 +48,7 @@ function Id() {
             <button className="text-blue-600">Flag inappropriate</button>
           </div>
         </div>
-        <div className="mt-8 text-sm leading-7 text-zinc-800 border-b pb-2">
+        <div className="mt-8 text-sm leading-6 text-zinc-800 border-b pb-2">
           <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi,
             consectetur voluptatibus odio cupiditate excepturi et nemo eos ex,

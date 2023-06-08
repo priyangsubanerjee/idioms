@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <ul className="px-6 text-blue-500">
+      <ul className="px-6 lg:px-20 text-blue-500 grid grid-cols-1 lg:grid-cols-2 gap-x-10 lg:w-[1000px]">
         <li className="space-x-3 py-4 border-b flex items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"

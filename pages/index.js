@@ -16,7 +16,7 @@ export default function Home() {
           placeholder="Search"
           name=""
           id=""
-          className="h-12 bg-zinc-50 w-full px-5 rounded-lg"
+          className="h-12 bg-zinc-50 w-full px-5 rounded-xl"
         />
       </div>
       <div className="px-6 lg:px-20 mt-7">
@@ -101,7 +101,7 @@ export default function Home() {
 
             <span>Favourites</span>
           </li>
-          <li className="space-x-3 py-4 border-b flex items-center">
+          <li className="space-x-3 py-4 flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

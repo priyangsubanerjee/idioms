@@ -1,9 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 
 import Navbar from "@/components/Navbar";
+import GLobalState from "@/context/globalStates";
 import Link from "next/link";
+import { useContext } from "react";
 
 export default function Home() {
+  const { contributeOpen, setContributeOpen } = useContext(GLobalState);
   return (
     <main>
       <div className="px-6 mt-16">
@@ -86,7 +89,10 @@ export default function Home() {
 
             <span>Sentiment</span>
           </li>
-          <li className="flex items-center space-x-2 text-blue-600 py-4">
+          <li
+            onClick={() => setContributeOpen(true)}
+            className="flex items-center space-x-2 text-blue-600 py-4"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

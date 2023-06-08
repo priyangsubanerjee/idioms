@@ -117,7 +117,9 @@ export default function Home() {
           <p className="text-xs text-zinc-500 mt-1 leading-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
-          <button className="text-sm text-blue-500">Read more</button>
+          <Link href={"/idiom/23"}>
+            <button className="text-sm text-blue-500">Read more</button>
+          </Link>
         </div>
       </div>
     </main>

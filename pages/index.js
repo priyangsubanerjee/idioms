@@ -25,8 +25,8 @@ export default function Home() {
   ];
 
   return (
-    <main className="">
-      <div className="px-5 mt-3 justify-between flex items-center">
+    <main className="bg-gray-50 h-screen pt-3">
+      <div className="px-5 justify-between flex items-center">
         <button>
           <svg
             xmlns="http://www.w3.org/2000/svg"

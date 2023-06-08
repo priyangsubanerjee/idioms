@@ -15,11 +15,13 @@ export default function Home() {
       </Head>
       <div>
         <div className="bg-indigo-50 py-16">
-          <img src="/loginSketch.svg" className="h-44 mx-auto" alt="" />
+          <img src="/loginSketch.svg" className="h-32 mx-auto" alt="" />
         </div>
-        <div className="px-6 text-center">
-          <h1 className="text-4xl font-serif text-center mt-16">Idioms</h1>
-          <p className="mt-4 leading-7 text-zinc-700  text-sm">
+        <div className="px-6 mt-7 text-center">
+          <h1 className="text-3xl font-serif font-medium text-center">
+            Learn Idioms
+          </h1>
+          <p className="mt-4 leading-7 text-zinc-700 text-xs">
             The more words you know, the more clearly and powerfully you will
             think and the more ideas you will invite into your mind
           </p>

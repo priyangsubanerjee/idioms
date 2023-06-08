@@ -32,32 +32,32 @@ function Id() {
           </button>
         </div>
 
-        <button className="text-blue-600 mt-6 text-sm">
+        <button className="text-blue-600 mt-7 text-sm">
           Contribute new meaning
         </button>
 
-        <div className="mt-8 text-sm leading-7 text-zinc-800">
-          <p className="border-b pb-2">
+        <div className="mt-8 text-sm leading-7 text-zinc-800 border-b pb-2">
+          <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi,
             consectetur voluptatibus odio cupiditate excepturi et nemo eos ex,
             corrupti inventore, consequatur soluta minus culpa nobis
             reprehenderit expedita voluptas nostrum.
           </p>
-          <div className="flex items-center justify-end mt-2 space-x-4">
+          <div className="flex items-center justify-end mt-2 space-x-4 text-zinc-500">
             <span>2 days ago</span>
-            <button className="text-blue-600">Flag as inappropriate</button>
+            <button className="text-blue-600">Flag inappropriate</button>
           </div>
         </div>
-        <div className="mt-8 text-sm leading-7 text-zinc-800">
-          <p className="border-b pb-2">
+        <div className="mt-8 text-sm leading-7 text-zinc-800 border-b pb-2">
+          <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit modi,
             consectetur voluptatibus odio cupiditate excepturi et nemo eos ex,
             corrupti inventore, consequatur soluta minus culpa nobis
             reprehenderit expedita voluptas nostrum.
           </p>
-          <div className="flex items-center justify-end mt-2 space-x-4">
-            <span>9 days ago</span>
-            <button className="text-blue-600">Flag as inappropriate</button>
+          <div className="flex items-center justify-end mt-2 space-x-4 text-zinc-500">
+            <span>2 days ago</span>
+            <button className="text-blue-600">Flag inappropriate</button>
           </div>
         </div>
       </div>

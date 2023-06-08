@@ -4,7 +4,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <main className="h-screen bg-zinc-950 text-white pt-16">
+    <main className="text-white pt-16">
       <Head>
         <meta name="theme-color" content="rgb(9 9 11)" />
       </Head>

@@ -17,7 +17,7 @@ export default function Home() {
         <div className="bg-indigo-50 py-16">
           <img src="/loginSketch.svg" className="h-32 mx-auto" alt="" />
         </div>
-        <div className="px-6 mt-7 text-center">
+        <div className="px-4 mt-7 text-center">
           <h1 className="text-3xl font-serif font-medium text-center">
             Learn Idioms
           </h1>

@@ -121,6 +121,14 @@ export default function Home() {
             <span>Contribute</span>
           </li>
         </ul>
+
+        <div className="bg-zinc-50 p-4 mt-10">
+          <h2 className="font-medium text-sm">Rules for contributing</h2>
+          <p className="text-xs text-zinc-500 mt-1 leading-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <button className="text-sm text-blue-500">Read more</button>
+        </div>
       </div>
     </main>
   );

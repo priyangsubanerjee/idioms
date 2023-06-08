@@ -16,6 +16,9 @@ module.exports = {
         dm: ["DM Serif Text", "sans-serif"],
         jost: ["Jost", "sans-serif"],
       },
+      boxShadow: {
+        "3xl": "10px 5px 60px -15px rgba(0, 0, 0, 0.15)",
+      },
     },
   },
   plugins: [],

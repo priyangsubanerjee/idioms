@@ -3,16 +3,16 @@
 export default function Home() {
   return (
     <main className="">
-      <div className="mt-7 px-6 flex items-center">
+      <div className="mt-5 px-6 flex items-center text-zinc-800">
         <h1 className="text-3xl font-bold">Home</h1>
         <div className="flex items-center space-x-10 ml-auto">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            stroke-width="2"
             stroke="currentColor"
-            class="h-5 w-5"
+            class="h-6 w-6"
           >
             <path
               stroke-linecap="round"
@@ -24,9 +24,9 @@ export default function Home() {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            stroke-width="2"
             stroke="currentColor"
-            class="h-5 w-5"
+            class="h-6 w-6"
           >
             <path
               stroke-linecap="round"

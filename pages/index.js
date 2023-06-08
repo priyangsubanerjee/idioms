@@ -30,7 +30,7 @@ export default function Home() {
           />
         </div>
         <ul className="mt-7 text-sm">
-          <li className="flex items-center space-x-2 text-blue-600 border-b py-5">
+          <li className="flex items-center space-x-2 text-blue-600 border-b py-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -48,7 +48,7 @@ export default function Home() {
 
             <span>Random</span>
           </li>
-          <li className="flex items-center space-x-2 text-blue-600 border-b py-5">
+          <li className="flex items-center space-x-2 text-blue-600 border-b py-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -66,7 +66,7 @@ export default function Home() {
 
             <span>Bookmarked</span>
           </li>
-          <li className="flex items-center space-x-2 text-blue-600 border-b py-5">
+          <li className="flex items-center space-x-2 text-blue-600 border-b py-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -84,7 +84,7 @@ export default function Home() {
 
             <span>Trending</span>
           </li>
-          <li className="flex items-center space-x-2 text-blue-600 border-b py-5">
+          <li className="flex items-center space-x-2 text-blue-600 border-b py-3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

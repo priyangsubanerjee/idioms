@@ -26,7 +26,7 @@ export default function Home() {
 
   return (
     <main className="">
-      <div className="px-5 justify-between flex items-center">
+      <div className="px-5 mt-3 justify-between flex items-center">
         <button>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ export default function Home() {
             />
           </svg>
         </button>
-        <span>Dictionary</span>
+        <span className="text-lg text-gray-800 font-semibold">Idioms</span>
         <button>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ export default function Home() {
           </svg>
         </button>
       </div>
-      <div className="px-5 mt-6">
+      <div className="px-5 mt-4">
         <Tabs value="html">
           <TabsHeader>
             {data.map(({ label, value }) => (

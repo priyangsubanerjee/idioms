@@ -55,7 +55,7 @@ export default function Home() {
 
           <span className="text-sm">Home</span>
         </button>
-        <button className="flex items-center space-x-2 w-full justify-center">
+        <button className="flex opacity-60 items-center space-x-2 w-full justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -73,7 +73,7 @@ export default function Home() {
 
           <span className="text-sm">Random</span>
         </button>
-        <button className="flex items-center space-x-2 w-full justify-center">
+        <button className="flex opacity-60 items-center space-x-2 w-full justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

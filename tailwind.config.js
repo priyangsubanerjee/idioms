@@ -14,6 +14,7 @@ module.exports = {
       },
       fontFamily: {
         dm: ["DM Serif Text", "sans-serif"],
+        jost: ["Jost", "sans-serif"],
       },
     },
   },

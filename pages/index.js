@@ -1,16 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 
-import Head from "next/head";
-
 export default function Home() {
   return (
-    <main className="text-white pt-16">
-      <Head>
-        <meta name="theme-color" content="rgb(9 9 11)" />
-      </Head>
-      <div className="px-6">
+    <main>
+      <div className="px-6 mt-16">
         <h1 className="font-serif font-semibold text-4xl">Idioms</h1>
-        <div className="px-5 bg-zinc-900 flex items-center w-full h-12 mt-5 rounded-md">
+        <div className="px-5 bg-zinc-100 flex items-center w-full h-12 mt-5 rounded-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -35,7 +30,7 @@ export default function Home() {
           />
         </div>
         <ul className="mt-7 text-sm">
-          <li className="flex items-center space-x-2 text-blue-400 border-b border-zinc-800 py-4">
+          <li className="flex items-center space-x-2 text-blue-600 border-b py-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -53,7 +48,7 @@ export default function Home() {
 
             <span>Random</span>
           </li>
-          <li className="flex items-center space-x-2 text-blue-400 border-b border-zinc-800 py-4">
+          <li className="flex items-center space-x-2 text-blue-600 border-b py-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -71,7 +66,7 @@ export default function Home() {
 
             <span>Bookmarked</span>
           </li>
-          <li className="flex items-center space-x-2 text-blue-400 border-b  border-zinc-800 py-4">
+          <li className="flex items-center space-x-2 text-blue-600 border-b py-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -89,7 +84,7 @@ export default function Home() {
 
             <span>Trending</span>
           </li>
-          <li className="flex items-center space-x-2 text-blue-400 border-b  border-zinc-800 py-4">
+          <li className="flex items-center space-x-2 text-blue-600 border-b py-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -107,7 +102,7 @@ export default function Home() {
 
             <span>Sentiment</span>
           </li>
-          <li className="flex items-center space-x-2 text-blue-400 py-4">
+          <li className="flex items-center space-x-2 text-blue-600 py-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -127,7 +122,7 @@ export default function Home() {
           </li>
         </ul>
 
-        <div className="bg-zinc-900 p-4 mt-10">
+        <div className="bg-zinc-50 p-4 mt-10">
           <h2 className="font-medium text-sm">Rules for contributing</h2>
           <p className="text-xs text-zinc-500 mt-1 leading-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.

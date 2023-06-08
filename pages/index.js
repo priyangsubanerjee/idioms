@@ -1,37 +1,47 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import Head from "next/head";
-
-const inter = Inter({ subsets: ["latin"] });
+import {
+  Tabs,
+  TabsHeader,
+  TabsBody,
+  Tab,
+  TabPanel,
+} from "@material-tailwind/react";
 
 export default function Home() {
+  const data = [
+    {
+      label: "HTML",
+      value: "html",
+      desc: `It really matters and then like it really doesn't matter.
+      What matters is the people who are sparked by it. And the people 
+      who are like offended by it, it doesn't matter.`,
+    },
+    {
+      label: "React",
+      value: "react",
+      desc: `Because it's about motivating the doers. Because I'm here
+      to follow my dreams and inspire other people to follow their dreams, too.`,
+    },
+  ];
+
   return (
     <main className="">
-      <div className="flex justify-center">
-        <img
-          src="https://cdni.iconscout.com/illustration/premium/thumb/online-learning-3985676-3299327.png?f=webp"
-          alt=""
-        />
-      </div>
-      <div className="px-6">
-        <h1 className="text-4xl font-black text-zinc-900 font-jost">
-          Idioms dictionary
-        </h1>
-        <p className="text-zinc-700 text-sm leading-7 mt-5">
-          The largest dictionary of idioms and phrases currently in use in
-          British, American and Australian English. Over 12000 phrases and
-          expressions.
-        </p>
-        <button className="bg-zinc-900 px-7 h-12 rounded-full text-white mt-7 flex items-center">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2008px-Google_%22G%22_Logo.svg.png"
-            className="w-5 h-5 mr-2"
-            alt=""
-          />
-          <span className="font-medium">Continue reading</span>
-        </button>
-      </div>
+      <Tabs value="html">
+        <TabsHeader>
+          {data.map(({ label, value }) => (
+            <Tab key={value} value={value}>
+              {label}
+            </Tab>
+          ))}
+        </TabsHeader>
+        <TabsBody>
+          {data.map(({ value, desc }) => (
+            <TabPanel key={value} value={value}>
+              {desc}
+            </TabPanel>
+          ))}
+        </TabsBody>
+      </Tabs>
     </main>
   );
 }

@@ -43,7 +43,7 @@ function Id() {
             corrupti inventore, consequatur soluta minus culpa nobis
             reprehenderit expedita voluptas nostrum.
           </p>
-          <div className="flex items-center justify-end mt-2 space-x-4 text-zinc-500">
+          <div className="flex items-center justify-between mt-3 space-x-4 text-zinc-500">
             <span>2 days ago</span>
             <button className="text-blue-600">Flag inappropriate</button>
           </div>
@@ -55,7 +55,7 @@ function Id() {
             corrupti inventore, consequatur soluta minus culpa nobis
             reprehenderit expedita voluptas nostrum.
           </p>
-          <div className="flex items-center justify-end mt-2 space-x-4 text-zinc-500">
+          <div className="flex items-center justify-between mt-3 space-x-4 text-zinc-500">
             <span>2 days ago</span>
             <button className="text-blue-600">Flag inappropriate</button>
           </div>

@@ -6,23 +6,19 @@ import { useLayoutEffect } from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  useLayoutEffect(() => {
-    //scroll to #ul
-    const nav = document.getElementById("nav");
-    nav.scrollIntoView();
-  }, []);
+  useLayoutEffect(() => {}, []);
   return (
     <main>
-      <div id="search" className="px-6 mt-6">
+      <Navbar />
+      <div id="search" className="px-6 lg:px-20 mt-6">
         <input
           type="text"
           placeholder="Search"
           name=""
           id=""
-          className="h-12 bg-zinc-50 w-full px-5 rounded"
+          className="h-12 bg-zinc-50 w-full px-5 rounded-lg"
         />
       </div>
-      <Navbar />
       <div className="px-6 lg:px-20 h-screen mt-7">
         <ul
           id="ul"

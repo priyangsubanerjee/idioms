@@ -19,7 +19,7 @@ export default function Home() {
           className="h-12 bg-zinc-50 w-full px-5 rounded-lg"
         />
       </div>
-      <div className="px-6 lg:px-20 h-screen mt-7">
+      <div className="px-6 lg:px-20 mt-7">
         <ul
           id="ul"
           className=" text-blue-500 grid grid-cols-1 lg:grid-cols-2 gap-x-10 lg:w-[1000px]"

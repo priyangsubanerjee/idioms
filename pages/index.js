@@ -36,7 +36,7 @@ export default function Home() {
           </svg>
         </div>
       </div>
-      <nav className="fixed bottom-0 inset-x-0 w-full h-16 bg-zinc-50 border-t grid grid-cols-3">
+      <nav className="fixed bottom-0 inset-x-0 w-full py-5 bg-zinc-50/50 border-t grid grid-cols-3">
         <button className="flex items-center space-x-2 w-full justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"

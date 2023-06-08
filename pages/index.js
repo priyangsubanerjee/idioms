@@ -23,14 +23,9 @@ export default function Home() {
             The more words you know, the more clearly and powerfully you will
             think and the more ideas you will invite into your mind
           </p>
-          <ul className="space-y-4 mt-7 bg-gradient-to-br from-slate-50 text-sm text-zinc-600 w-fit mx-auto p-7 rounded-lg">
-            <li>1000+ Idioms</li>
-            <li>Open source community</li>
-            <li>Privacy first - no tracking</li>
-          </ul>
 
           <div className="px-6 mt-10">
-            <button className="w-full bg-black rounded-full text-white h-12 flex items-center justify-center">
+            <button className="w-full bg-zinc-100 rounded-md text-zinc-900 h-12 flex items-center justify-center">
               <span>Sign in with Google</span>
             </button>
           </div>

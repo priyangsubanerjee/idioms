@@ -36,7 +36,7 @@ function Contribute() {
                 className="bg-transparent block w-full border py-3 px-4 border-zinc-200 rounded-md"
                 id=""
                 cols="30"
-                rows="7"
+                rows="6"
                 placeholder="Enter meaning of the phrase"
               ></textarea>
             </div>
@@ -49,18 +49,18 @@ function Contribute() {
                 className="bg-transparent block w-full border py-3 px-4 border-zinc-200 rounded-md"
                 id=""
                 cols="30"
-                rows="7"
+                rows="6"
                 placeholder="Example use of the phrase in a sentence"
               ></textarea>
             </div>
             <div className="flex items-center justify-end mt-7">
-              <button className="px-6 py-2 bg-blue-500 text-white rounded">
+              <button className="px-6 py-2 bg-blue-500  hover:bg-blue-600 text-white rounded">
                 Submit
               </button>
             </div>
           </div>
           <div className="p-6">
-            <div className="bg-zinc-50 p-4 mt-10">
+            <div className="bg-zinc-50 p-4">
               <h2 className="font-medium text-sm">Rules for contributing</h2>
               <p className="text-xs text-zinc-500 mt-1 leading-6">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
